@@ -13,3 +13,7 @@ class Teacher(Person):
         print("Age: ", self.age)
         print("Gender: ", self.gender)
         print("Salary: ", self.salary)
+
+teacher = Teacher(9000)
+teacher.setData("Bob", 30, "Male")
+teacher.showTeacherData()
