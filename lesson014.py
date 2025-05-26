@@ -1,14 +1,15 @@
 class Person:
     name = "Bob"
-    age = 30
     gender = "Male"
 
 class Student(Person):
     fee = 5000
+    age = 30
 
 class Faculty(Person):
     lunch = False
     bonus = True
+    age = 40
 
 class TA(Student, Faculty):
     def showTaData(self):
