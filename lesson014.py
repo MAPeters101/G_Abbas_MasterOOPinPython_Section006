@@ -19,5 +19,7 @@ class TA(Student, Faculty):
         print(self.lunch)
         print(self.bonus)
 
+ta = TA()
+ta.showTaData()
 
 
