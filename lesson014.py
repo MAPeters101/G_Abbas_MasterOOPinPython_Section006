@@ -11,7 +11,7 @@ class Faculty(Person):
     bonus = True
     age = 40
 
-class TA(Student, Faculty):
+class TA(Faculty, Student):
     def showTaData(self):
         print(self.name)
         print(self.age)
